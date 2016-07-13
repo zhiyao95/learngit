@@ -1,0 +1,27 @@
+<script>
+	console.log(111);
+	$(function(){
+		console.log('haha');
+		$('#btn').on('click', function(){
+			alert('haha');
+		});
+	});
+
+</script>
+<style>
+	#username{
+		width: 300px;
+		height: 25px;
+	}
+</style>
+<form action="">
+	<p>
+		用户名：<input type="text" id="username">
+	</p>
+	<p>
+		密码：<input type="password" id="password">
+	</p>
+	<p>
+		<input type="button" id="btn" value="确定">
+	</p>
+</form>

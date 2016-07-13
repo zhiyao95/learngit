@@ -1,0 +1,23 @@
+.window_boundingBox{
+	width: 400px;
+	height: 300px;
+	background: #ccc;
+	border: 1px solid #333;
+	position: absolute;
+/*	left: 50%;
+	margin-left: -200px;
+	top: 50%;
+	margin-top: -150px;*/
+}
+
+.window_header{
+	height: 25px;
+	background: #666;
+}
+.window_footer{
+	width: 100%;
+	height: 25px;
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+}
